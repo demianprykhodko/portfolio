@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <h2 class="page-title"> 
+        <span class="symbol">&lt;</span>  
+        <span class="name">{{ .Params.title }}</span> 
+        <span class="symbol">&gt;</span>
+    </h2>
+
+    <p>{{ .Params.list }}</p>
+
+    {{ partial "project-list.html" . }}
+{{ end }}

@@ -1,0 +1,11 @@
+baseURL = ""
+languageCode = "en-gb"
+title = "portfolio"
+
+# Prevent Hugo from generating unwanted taxonomy pages
+disableKinds = ["taxonomy", "term"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enables raw HTML inside Markdown if needed

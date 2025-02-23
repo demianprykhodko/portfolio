@@ -1,0 +1,17 @@
+{{ define "main" }}
+    <p id="joke">{{ .Params.loading }}</p>
+
+    <script>
+        async function fetchJoke() {
+            try {
+                const response = await fetch("https://v2.jokeapi.dev/joke/Programming?type=single");
+                const data = await response.json();
+                document.getElementById("joke").textContent = data.joke;
+            } catch (error) {
+                document.getElementById("joke").textContent = "Failed to load joke.";
+            }
+        }
+    
+        fetchJoke();
+    </script>
+{{ end }}

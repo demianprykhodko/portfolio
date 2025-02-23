@@ -1,0 +1,11 @@
+<div class="project-list">
+    {{ range .Params.projects }}
+        <a href="{{ .link }}" class="project-item" target="_blank" rel="noopener noreferrer">
+            <div class="project-icon">{{ .icon }}</div>
+            <div class="project-details">
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+            </div>
+        </a>
+    {{ end }}
+</div>

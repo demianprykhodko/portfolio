@@ -1,0 +1,12 @@
+# Hugo build directory
+/public/
+# Cache files
+/resources/
+# Temporary files
+.hugo_build.lock
+.DS_Store
+# Theme submodules
+themes/*/exampleSite/
+# Log files and OS junk
+*.log
+*.bak
