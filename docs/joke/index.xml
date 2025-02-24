@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>joke on portfolio</title>
-    <link>https://demianprykhodko.github.io/portfolio/joke/</link>
+    <link>https://prykhodd.com/joke/</link>
     <description>Recent content in joke on portfolio</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <atom:link href="https://demianprykhodko.github.io/portfolio/joke/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://prykhodd.com/joke/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
