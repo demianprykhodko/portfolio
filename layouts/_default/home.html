@@ -10,15 +10,15 @@
 
         <p>{{ .Content }}</p>
 
-        <p>Take a look at <a href="/work">my work</a>, grab a <a href="/joke">random dev joke</a> or <br> <a id="toggle-contact" href="#">get in touch</a>.</p>
+        <p>Take a look at <a href="{{ "work" | relURL }}">my work</a>, grab a <a href="{{ "joke" | relURL }}">random dev joke</a> or <br> <a id="toggle-contact" href="#">get in touch</a>.</p>
     </div>
 
     <div id="contact-icons" class="hidden">
         <a href="mailto:d.prykhodko55@gmail.com">
-            <img src="/icons/email.svg" alt="Email" width="35">
+            <img src="{{ "icons/email.svg" | relURL }}" alt="Email" width="35">
         </a>
         <a href="https://github.com/demianprykhodko" target="_blank">
-            <img src="/icons/github.svg" alt="GitHub" width="35">
+            <img src="{{ "icons/github.svg" | relURL }}" alt="GitHub" width="35">
         </a>
     </div>
 
